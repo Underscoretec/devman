@@ -34,6 +34,18 @@ Or run the installed binary directly if the package is linked globally:
 devman
 ```
 
+Or add an alias to your shell config (`~/.zshrc` / `~/.bashrc`) to run it directly from anywhere:
+
+```bash
+alias devman='node APP_PATH/devman/devman.js'
+```
+
+Then reload your shell:
+
+```bash
+source ~/.zshrc
+```
+
 ## Platform support
 
 Designed for macOS and Linux. Uses platform-specific commands to inspect processes and listening ports.
