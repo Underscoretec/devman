@@ -1,0 +1,17 @@
+{
+  "name": "devman",
+  "version": "1.0.0",
+  "description": "Terminal UI for managing local dev servers",
+  "type": "module",
+  "main": "devman.js",
+  "bin": {
+    "devman": "./devman.js"
+  },
+  "scripts": {
+    "start": "node devman.js"
+  },
+  "keywords": ["dev", "process", "manager", "cli"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
